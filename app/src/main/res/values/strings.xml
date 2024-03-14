@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">BancoCarrefour</string>
+
+    <!-- Usuario Detalhe -->
+
+        <!-- TextView -->
+        <string name="tv_usuario_detalhe_nome">Fulano</string>
+        <string name="tv_usuario_detalhe_empresa">Empresa: </string>
+        <string name="tv_usuario_detalhe_repo">Repo.: </string>
+        <string name="tv_usuario_detalhe_amo">Amo.: </string>
+
+        <!-- ImageView -->
+        <string name="img_usuario_detalhe_descricao">Descricao da imagem do usuario</string>
+
+
+    <!-- Fim Usuario Detalhe -->
+
+
+    <!-- Include Dados do Usuário -->
+
+        <!-- TextView -->
+        <string name="label_usuario_dados_endereco">Endereço: </string>
+        <!-- TextView -->
+        <string name="tv_usuario_dados_endereco">Localização: </string>
+        <!-- TextView -->
+        <string name="tv_usuario_dados_github">Github: </string>
+
+
+        <!-- TextView -->
+        <string name="label_usuario_dados_empresa">Empresa</string>
+        <!-- TextView -->
+        <string name="tv_usuario_dados_empresa">XYZ</string>
+
+        <!-- TextView -->
+        <string name="label_usuario_dados_repositorio">Repositório</string>
+        <!-- TextView -->
+        <string name="tv_usuario_dados_repositorio">Repositorio</string>
+
+        <!-- TextView -->
+        <string name="label_usuario_dados_amostra">Amostra</string>
+        <!-- TextView -->
+        <string name="tv_usuario_dados_amostra">Amostra</string>
+
+        <!-- TextView -->
+        <string name="label_usuario_dados_data_criacao">Data Criação</string>
+        <!-- TextView -->
+        <string name="tv_usuario_dados_data_criacao">Data Criação</string>
+
+        <!-- TextView -->
+        <string name="label_usuario_dados_data_atualizacao">Data Atualização</string>
+        <!-- TextView -->
+        <string name="tv_usuario_dados_data_atualizacao">Atualização</string>
+
+        <!-- Button -->
+        <string name="button_usuario_dados_ver_repositorio">Ver Repositório</string>
+
+    <!-- Fim Include Dados do Usuário -->
+
+
+    <!-- Include Dados do Usuário -->
+
+        <!-- TextView -->
+        <string name="label_lista_item_repositorio_nome">Repositorio XYZ</string>
+
+        <!-- TextView -->
+        <string name="label_lista_item_repositorio_visibilidade">Private</string>
+
+        <!-- TextView -->
+        <string name="label_lista_item_repositorio_descricao">Descrição</string>
+
+        <!-- TextView -->
+        <string name="label_lista_item_repositorio_linguagem">Kotlin</string>
+
+        <!-- TextView -->
+        <string name="label_lista_item_repositorio_licensa">Apache License</string>
+
+        <!-- TextView -->
+        <string name="label_lista_item_repositorio_atualizacao">Atualização</string>
+
+
+    <!-- Fim Include Dados do Usuário -->
+
+
+    <!-- Lista Usuarios -->
+
+        <!-- TextView -->
+        <string name="label_lista_usuario_login">FulanoXVZ</string>
+
+        <!-- TextView -->
+        <string name="label_lista_usuario_saiba_mais">Para saber mais , clique aqui</string>
+
+
+        <!-- ImageView -->
+        <string name="label_lista_usuario_image_descricao">Descrição de Imagem</string>
+
+
+    <!-- Fim Lista Usuarios -->
+
+
+    <!-- ProgressBar Loading -->
+
+        <!-- ImageView -->
+        <string name="label_progressbar_mensagem">Carregando.....</string>
+
+    <!-- Fim ProgressBar Loading -->
+
+
+    <!-- Intro Apresentação -->
+
+        <!-- ImageView -->
+        <string name="label_desenvolvido">Desenvolvido por: Renan Costa e Silva</string>
+
+        <!-- AlertDialog Titulo-->
+        <string name="texto_aviso">RENANCSDEV - Aviso</string>
+
+        <!-- AlertDialog Mensagem-->
+        <string name="texto_aviso_data_limite">Este aplicativo de teste ficará disponível no github até o dia 02/06/2023 as 23:00\n\nApós esta data ele será retirado do Github e armazenado em servidor interno.</string>
+
+        <!-- AlertDialog Botão -->
+        <string name="texto_aviso_botao_continuar">Continuar</string>
+
+
+    <!-- Fim Intro Apresentação -->
+
+
+    <!-- RecyclerView Usuarios -->
+
+    <string name="labe_nome_repositorio">Repositório: </string>
+
+    <!-- Fim RecyclerView Usuarios -->
+
+    <!-- Genéricos -->
+
+        <!-- ImageView -->
+        <string name="label_image_generico_descricao">imagem</string>
+
+    <!-- Fim Genéricos -->
+
+</resources>

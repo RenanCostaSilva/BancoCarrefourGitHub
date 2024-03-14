@@ -1,0 +1,85 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+}
+
+android {
+    namespace 'br.com.renancsdev.bancocarrefour'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "br.com.renancsdev.bancocarrefour"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    dataBinding{
+        enabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+}
+
+dependencies {
+
+    def retrofit2_version = "2.9.0"
+    def gson_version = "2.10.1"
+    def glide_version = "4.16.0"
+    def picasso_version = "2.71828"
+    def kxt_version = "2.7.0"
+    def koin_version = "3.4.0"
+    def okhttp3_version = "4.12.0"
+
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    // Retrofit
+    implementation "com.squareup.retrofit2:retrofit:$retrofit2_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit2_version"
+    implementation "com.squareup.okhttp3:logging-interceptor:$okhttp3_version"
+
+    // Gson
+    implementation "com.google.code.gson:gson:$gson_version"
+
+    // Glide
+    implementation "com.github.bumptech.glide:glide:$glide_version"
+    kapt "com.github.bumptech.glide:compiler:$glide_version"
+
+    //Imagem
+    implementation "com.squareup.picasso:picasso:$picasso_version"
+
+    //kxt
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$kxt_version"
+
+
+    // Koin injection
+    implementation "io.insert-koin:koin-android:$koin_version"
+    implementation "io.insert-koin:koin-core:$koin_version"
+
+    //Espresso Testes
+    implementation("androidx.test.espresso:espresso-contrib:3.5.1")
+    implementation("com.forkingcode.espresso.contrib:espresso-descendant-actions:1.5.0")
+
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test:rules:1.5.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}

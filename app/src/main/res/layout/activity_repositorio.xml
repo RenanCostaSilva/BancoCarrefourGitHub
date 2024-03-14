@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="br.com.renancsdev.bancocarrefour.ui.activity.repositorio.viewmodel.RepositoryViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.activity.repositorio.RepositorioActivity">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_repositorio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:listitem="@layout/item_list_repositorio" />
+
+        <include
+            android:id="@+id/include_progressbar_repositorio"
+            layout="@layout/layout_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/rv_repositorio"
+            app:layout_constraintEnd_toEndOf="@+id/rv_repositorio"
+            app:layout_constraintStart_toStartOf="@+id/rv_repositorio"
+            app:layout_constraintTop_toTopOf="@+id/rv_repositorio" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
