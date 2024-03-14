@@ -41,6 +41,9 @@ ViewModel (LiveData)
 ## Teste
 Testado no emulador , com skin dos celulares da samsung
 
+## Teste Automatizados
+- Espresso
+- 
 ## Sistema Operacional
 Windows 11
 
