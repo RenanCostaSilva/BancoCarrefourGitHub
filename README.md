@@ -27,9 +27,6 @@ minSdk: 24 / alvo: 34
 ### Injeção de Dependência
 Koin
 
-### UI
-ViewModel (LiveData)
-
 ### Jetpack
 - dataBinding
 - AppCompatActivity
